@@ -16,7 +16,7 @@ A Gatsby Starter to build a complete webapp with Gatsby & Firebase by using the 
 
     ```shell
     # create a new GatsbyFire app
-    gatsby new my-gatbyfire-project https://github.com/gatsbyjs/gatsby-starter-default
+    gatsby new my-gatbyfire-app https://github.com/GeorgeSteel/GatsbyFire
     ```
 
 1.  **Start developing.**
@@ -24,7 +24,7 @@ A Gatsby Starter to build a complete webapp with Gatsby & Firebase by using the 
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-gatbyfire-project
+    cd my-gatbyfire-app
     gatsby develop
     ```
 
