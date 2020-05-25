@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import { AuthCheck } from 'reactfire'
 
 import Layout from '../components/Layout'
@@ -16,7 +15,6 @@ const IndexPage = () => (
       <SignOut />
     </AuthCheck>
     <br />
-    <Link to="/">Go to main page</Link>
   </Layout>
 )
 
