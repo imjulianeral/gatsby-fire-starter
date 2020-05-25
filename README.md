@@ -8,6 +8,8 @@
 
 A Gatsby Starter to build a complete webapp with Gatsby & Firebase by using the library [reactfire](https://firebaseopensource.com/projects/firebaseextended/reactfire/)
 
+You can see the example running [here](https://gatsbyfire.netlify.app/)
+
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
