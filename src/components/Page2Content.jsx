@@ -13,7 +13,9 @@ const Page2 = () => {
 
       <h1>Hi from the second page</h1>
       <Records />
-      <Link to="/">Go back to the homepage</Link>
+      <Link to="/">
+        <p>Go back to the homepage</p>
+      </Link>
     </AuthCheck>
   )
 }

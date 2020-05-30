@@ -1,9 +1,8 @@
 import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
 import React from 'react'
+import PropTypes from 'prop-types'
 import Image from './Image'
-
-import './buttons.css'
+import Button from './Button'
 
 const Header = ({ siteTitle }) => (
   <header
@@ -42,10 +41,10 @@ const Header = ({ siteTitle }) => (
       </h1>
       <div>
         <Link to="/login" style={{ marginRight: '1rem' }}>
-          <button className="btn-1">Login</button>
+          <Button text="Login" className="login-btn" />
         </Link>
         <Link to="/app/page-2/">
-          <button className="btn-1">PrivatePage</button>
+          <Button text="Private Page" className="btn-1" />
         </Link>
       </div>
     </div>

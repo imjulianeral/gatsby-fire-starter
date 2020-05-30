@@ -1,5 +1,6 @@
 import React from 'react'
 import { useAuth } from 'reactfire'
+import Button from './Button'
 
 export default function SignOut() {
   const auth = useAuth()
@@ -7,5 +8,5 @@ export default function SignOut() {
   const signOut = async () => {
     await auth.signOut()
   }
-  return <button onClick={signOut}>Sign Out</button>
+  return <Button onClick={signOut} text="Sign Out" className="logout-btn" />
 }

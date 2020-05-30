@@ -16,8 +16,8 @@
   font-family: 'Font Awesome 5 Pro';
   font-weight: 400;
   position: absolute;
-  left: 85%;
-  top: 31%;
+  left: 80%;
+  top: 39%;
   right: 5%;
   bottom: 0;
   opacity: 0;
@@ -27,7 +27,7 @@
   transition: all 0.5s;
   border-radius: 10px;
   box-shadow: 0px 6px 15px #ff880061;
-  padding: 1.5rem 3.5rem 1.5rem 1.5rem;
+  padding: 1.5rem 3rem 1.5rem 1.5rem;
 }
 .btn-1:hover::after {
   opacity: 1;
@@ -35,25 +35,25 @@
 }
 .login-btn {
   font-family: Hack, monospace;
-  background: #bbff00;
-  color: #1d1d1d;
+  background: rebeccapurple;
+  color: #fff;
   cursor: pointer;
-  font-size: 2em;
-  padding: 1.5rem;
+  font-size: 1rem;
+  padding: 0.7rem;
   border: 0;
   transition: all 0.5s;
   border-radius: 10px;
   width: auto;
   position: relative;
-  min-width: 250px;
 }
 .login-btn::after {
   content: '\f2f6';
   font-family: 'Font Awesome 5 Pro';
   font-weight: 400;
+  font-size: larger;
   position: absolute;
   left: 80%;
-  top: 54%;
+  top: 56%;
   right: 0;
   bottom: 0;
   opacity: 0;
@@ -74,58 +74,40 @@
 }
 .logout-btn {
   font-family: Hack, monospace;
-  background: #d3d3d3;
-  color: #2c2c2c;
+  background: rebeccapurple;
+  color: #ffffff;
   cursor: pointer;
-  font-size: 2em;
-  padding: 1.5rem;
+  font-size: 1rem;
+  padding: 0.7rem;
   border: 0;
   transition: all 0.5s;
   border-radius: 10px;
   width: auto;
   position: relative;
-  min-width: 250px;
 }
 .logout-btn::after {
   content: '\f2f5';
   font-family: 'Font Awesome 5 Pro';
+  font-size: larger;
   font-weight: 400;
   position: absolute;
-  left: 80%;
-  top: 54%;
+  left: 75%;
+  top: 55.5%;
   right: 0;
   bottom: 0;
   opacity: 0;
   transform: translate(-50%, -50%);
 }
 .logout-btn:hover {
-  background: #2b2bff;
+  background: #ff2b2b;
   transition: all 0.5s;
   border-radius: 10px;
-  box-shadow: 0px 6px 15px #0000ff61;
-  padding: 1.5rem 3rem 1.5rem 1.5rem;
+  box-shadow: 0px 6px 15px #ff000061;
+  padding: 1.5rem 4rem 1.5rem 1.5rem;
   color: #ffffff;
 }
 .logout-btn:hover::after {
   opacity: 1;
   transition: all 0.5s;
   color: #ffffff;
-}
-.footer {
-  position: absolute;
-  font-size: 12px;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  /* Set the fixed height of the footer here */
-  background-color: #f5f5f5;
-  text-align: center;
-}
-.footer a {
-  text-decoration: none;
-  color: inherit;
-  border-bottom: 1px solid;
-}
-.footer a:hover {
-  border-bottom: 1px transparent;
 }

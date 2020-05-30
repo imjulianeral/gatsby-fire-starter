@@ -1,10 +1,16 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-    <img alt="Gatsby GastbyFire" src="./src/images/GatsbyFire.png" width="250" />
+    <img alt="Gatsby GastbyFire" src="./src/images/GatsbyFire.png" width="300" />
 </p>
 <h1 align="center">
-  GatsbyFire
+  GatsbyFire Starter
 </h1>
+<p align="center">
+    <img alt="MIT License" src="https://img.shields.io/apm/l/atomic-design-ui.svg?" />
+    <img alt="GitHub Release" src="https://img.shields.io/badge/version-1.0.5-blue" />
+    <img alt="Build" src="https://img.shields.io/badge/build-passing-success" />
+    <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/aea8f465-6a75-4abc-87a3-ce1fcf145085/deploy-status" />
+</p>
 
 A Gatsby Starter to build a complete webapp with Gatsby & Firebase by using the library [reactfire](https://firebaseopensource.com/projects/firebaseextended/reactfire/)
 
@@ -18,7 +24,7 @@ You can see the example running [here](https://gatsbyfire.netlify.app/)
 
     ```shell
     # create a new GatsbyFire app
-    gatsby new my-gatbyfire-app https://github.com/GeorgeSteel/GatsbyFire
+    gatsby new gatsby-fire-starter https://github.com/GeorgeSteel/gatsby-fire-starter
     ```
 
 1.  **Start developing.**
@@ -26,7 +32,7 @@ You can see the example running [here](https://gatsbyfire.netlify.app/)
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-gatbyfire-app
+    cd gatsby-fire-starter
     gatsby develop
     ```
 

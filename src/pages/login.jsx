@@ -13,8 +13,8 @@ const IndexPage = () => (
     <AuthCheck fallback={<FirebaseUI />}>
       <p>You are logged in</p>
       <SignOut />
+      <br /> <br />
     </AuthCheck>
-    <br />
   </Layout>
 )
 
